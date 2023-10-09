@@ -14,7 +14,7 @@ body {
   padding: 0;
   color: darkgrey;
   flex-direction: column;
-  background: url("../images/cottage.jpg");
+  background: url("..src/images/cottage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
