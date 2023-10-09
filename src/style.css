@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  color: darkgrey;
+  flex-direction: column;
+  background: url("./images/cottage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.body {
+  padding: 2em;
+  margin: 2em auto;
+  text-align: center;
+  background-color: #0e252c;
+  opacity: 90%;
+  border-radius: 10px;
+}
+
+.show-properties {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: .5em .9em;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffecec;
+  color: #330f4b;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.recommended {
+  margin: 0;
+  padding: 0;
+}
+
+.revealed-properties {
+  list-style: none;
+  padding: 0;
+}
+
+.revealed-properties li {
+  padding-top: 0.5em;
+  color: #8ec252;
+  font-weight: 700;
+  font-size: 1.2rem
+}
+
+.nav-bar {
+  width: 100%;
+  position: sticky;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar h3 {
+  color: #03191f;
+  font-weight: 600;
+}
+
+.logo {
+  height: 30px;
+  width: 46px;
+  background-size: 47px;
+  background-image: url("images/sofa-logo.png");
+  margin: 20px;
+}
+
+.user-container {
+  margin: 20px;
+}
+
+#reviews,
+.container h3 {
+  color: #ecdada;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5em;
+}
+
+.properties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
+  gap: 0.4em;
+  background-color: #ffecec;
+}
+
+.card h1 {
+  font-size: 1rem;
+  color: #ff5a5f;
+}
+
+.card h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #403264;
+}
+
+.card h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #123a44;
+}
+
+.card h6 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #03191f;
+}
+
+.card h4 {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #403264;
+}
+
+.card p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #403264;
+}
+
+.card h1,
+h2,
+h4,
+p,
+h3,
+h5,
+h6 {
+  margin: 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: lightcoral;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  bottom: 0px;
+  position: absolute;
+}
+
+.break {
+  height: 3px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: rgb(214, 200, 195);
+}
