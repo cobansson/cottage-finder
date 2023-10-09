@@ -40,7 +40,7 @@ const showProperties = (props: Properties[]) => {
       return prop.isAvailable
         ? `
          <div class="card">
-            <img src="${prop.image}" />
+            <img src=${prop.image} />
             <h1>${prop.title}</h1>
             <h5>$${prop.price}</h5>
             <h4>${prop.location.city} / ${prop.location.country}</h4>
@@ -53,7 +53,7 @@ const showProperties = (props: Properties[]) => {
         `
         : `
         <div class="card">
-           <img src="${prop.image}" />
+           <img src=${prop.image} />
            <h1>${prop.title}</h1>
            <h5>$${prop.price}</h5>
            <h4>${prop.location.city} / ${prop.location.country}</h4>
