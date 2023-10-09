@@ -2,7 +2,7 @@ import { Properties } from "./interfaces";
 
 export const properties: Properties[] = [
   {
-    image: "../src/images/colombia-property.jpg",
+    image: "..images/colombia-property.jpg",
     title: "Colombian Shack",
     price: 45,
     location: {
@@ -15,7 +15,7 @@ export const properties: Properties[] = [
     isAvailable: true,
   },
   {
-    image: "..src/images/poland-property.jpg",
+    image: "..images/poland-property.jpg",
     title: "Polish Cottage",
     price: 30,
     location: {
@@ -28,7 +28,7 @@ export const properties: Properties[] = [
     isAvailable: false,
   },
   {
-    image: "..src/images/london-property.jpg",
+    image: "..images/london-property.jpg",
     title: "London Flat",
     price: 25,
     location: {
