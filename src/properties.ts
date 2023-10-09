@@ -2,7 +2,7 @@ import { Properties } from "./interfaces";
 
 export const properties: Properties[] = [
   {
-    image: "/images/colombia-property.jpg",
+    image: "..cottage-finder/src/images/colombia-property.jpg",
     title: "Colombian Shack",
     price: 45,
     location: {
